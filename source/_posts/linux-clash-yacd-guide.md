@@ -1,7 +1,7 @@
 ---
-title: linux_clash_yacd_guide
+title: linux clash+yacd guide
 date: 2023-04-14 13:50:37
-tags:
+tags: guide
 ---
 
 # Linux系统配置clash教程
