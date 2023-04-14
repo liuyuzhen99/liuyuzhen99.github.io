@@ -1,6 +1,8 @@
 ---
 title: hexo_guide
 date: 2023-04-14 09:35:37
+layout: post
+updated: 2023-04-14 09:52:30
 tags: guide
 ---
 # 博客搭建流程
