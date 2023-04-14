@@ -2227,6 +2227,10 @@ a.toc-link {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+table th {
+  border-bottom: 2px solid;
+  min-width: 100px;
+}
 .articles .article {
   padding: 4.5rem 0;
 }
