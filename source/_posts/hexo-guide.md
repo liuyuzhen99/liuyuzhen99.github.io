@@ -9,6 +9,7 @@ tags:
 ## 安装 Node. js 和 git
 **Node. js 版本限制**
 
+
 hexo 版本|最低版本 (Node. js 版本)|最高版本 (Node. js 版本)|
 :|:-:|:|
 6.2+|12.13.0|latest|
@@ -20,6 +21,7 @@ hexo 版本|最低版本 (Node. js 版本)|最高版本 (Node. js 版本)|
 3.2-3.3|0.12|未知|
 3.0-3.1|0.10 或 iojs|未知|
 0.0.1-2.8|0.10|未知|
+
 
 ## 安装 hexo 
 `npm install -g hexo-cli`
