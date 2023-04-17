@@ -3,7 +3,8 @@ title: linux clash+yacd guide
 date: 2023-04-14 13:50:37
 tags: guide
 ---
-
+linux系统使用clash
+<!-- more -->
 # Linux系统配置clash教程
 
 ## clash下载
