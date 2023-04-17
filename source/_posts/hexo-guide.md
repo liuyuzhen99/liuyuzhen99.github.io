@@ -4,8 +4,8 @@ date: 2023-04-14 10:52:26
 tags:
 ---
 
-hexo搭建博客教程
-<!-- more -->
+
+
 # 博客搭建流程
 
 ## 安装 Node. js 和 git
@@ -27,7 +27,7 @@ hexo版本|最低版本(Node.js版本)|最高版本(Node.js版本)|
 
 ## 安装 hexo 
 `npm install -g hexo-cli`
-
+<!-- more -->
 文件目录
 ```tree
 .  

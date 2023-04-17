@@ -2,9 +2,8 @@
 title: Hello World
 ---
 
-Hello World!
 
-<!-- more -->
+
 
 # 创建github仓库
 
@@ -19,6 +18,7 @@ $ hexo new "My New Post"
 ```
 
 More info: [Writing](https://hexo.io/docs/writing.html)
+<!-- more -->
 
 ### Run server
 

@@ -3,8 +3,8 @@ title: linux clash+yacd guide
 date: 2023-04-14 13:50:37
 tags: guide
 ---
-linux系统使用clash
-<!-- more -->
+
+
 # Linux系统配置clash教程
 
 ## clash下载
@@ -17,6 +17,7 @@ chmod u+x clash
 ```
 
 访问[Country.mmdb](https://github.com/Dreamacro/maxmind-geoip/releases)下载clash运行所需文件,然后使用SFTP传到Linux服务器文件夹——`~/.config/clash`
+<!-- more -->
 
 ## 配置文件
 将linux服务器文件夹`~/.config/clash`下的`config.yaml`文件配置为自己订阅的服务
