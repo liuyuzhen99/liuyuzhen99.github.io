@@ -8,15 +8,15 @@ rss: /atom.xml
 
 
 # Miscellaneous
-favicon: /favicon.ico
+favicon: /牛.jpg
 brand: /images/hexo.svg
 
 # Ocean Video
 # Because I put videos in multiple formats on the same path, I just labeled the path here.
 ocean:
   overlay: true
-  path: /images/ocean/
-  brand: /images/hexo-inverted.svg
+  path: /images/ocean/房子.mp4
+  brand: /images/鹅.jpg
 
 # Content
 excerpt_link: Read More...
