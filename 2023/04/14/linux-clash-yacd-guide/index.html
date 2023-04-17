@@ -10,7 +10,7 @@
   <title>
     linux clash+yacd guide |
     
-    Hexo
+    刘禹震
   </title>
   <!-- Icon -->
   
@@ -68,12 +68,12 @@
       
       
       
-        <p>linux系统使用clash</p>
-<span id="more"></span>
-<h1 id="Linux系统配置clash教程"><a href="#Linux系统配置clash教程" class="headerlink" title="Linux系统配置clash教程"></a>Linux系统配置clash教程</h1><h2 id="clash下载"><a href="#clash下载" class="headerlink" title="clash下载"></a>clash下载</h2><p>在<a target="_blank" rel="noopener" href="https://github.com/Dreamacro/clash/releases">clash release</a>页面下载linux对应版本，使用SFTP传到Linux服务器<br>然后解压压缩包，并为clash添加可执行权限：</p>
+        <h1 id="Linux系统配置clash教程"><a href="#Linux系统配置clash教程" class="headerlink" title="Linux系统配置clash教程"></a>Linux系统配置clash教程</h1><h2 id="clash下载"><a href="#clash下载" class="headerlink" title="clash下载"></a>clash下载</h2><p>在<a target="_blank" rel="noopener" href="https://github.com/Dreamacro/clash/releases">clash release</a>页面下载linux对应版本，使用SFTP传到Linux服务器<br>然后解压压缩包，并为clash添加可执行权限：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">gunzip clash-linux-amd64-v1.14.0.gz</span><br><span class="line">mv clash-linux-amd64-v1.14.0 clash</span><br><span class="line">chmod u+x clash</span><br></pre></td></tr></table></figure>
 
 <p>访问<a target="_blank" rel="noopener" href="https://github.com/Dreamacro/maxmind-geoip/releases">Country.mmdb</a>下载clash运行所需文件,然后使用SFTP传到Linux服务器文件夹——<code>~/.config/clash</code></p>
+<span id="more"></span>
+
 <h2 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h2><p>将linux服务器文件夹<code>~/.config/clash</code>下的<code>config.yaml</code>文件配置为自己订阅的服务</p>
 <p>在该<code>config.yaml</code>中添加：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">secret:</span> <span class="string">xxxxx</span> <span class="comment">#api访问密钥，安全所需，可不加</span></span><br><span class="line"><span class="attr">external-controller:</span> <span class="number">0.0</span><span class="number">.0</span><span class="number">.0</span><span class="string">:9090</span> <span class="comment">#外部访问接口</span></span><br><span class="line"><span class="attr">external-ui:</span> <span class="string">dashboard</span> <span class="comment">#外部访问客户端</span></span><br></pre></td></tr></table></figure>
@@ -131,7 +131,7 @@
     <footer class="footer">
   <div class="outer">
     <ul class="list-inline">
-      <li>Hexo &copy; 2023</li>
+      <li>刘禹震 &copy; 2023</li>
       
         <li>
           
@@ -157,7 +157,7 @@
 <nav class="navbar">
   
   <div class="logo">
-    <a href="/"><img src="/images/鹅.jpg" alt="Hexo"></a>
+    <a href="/"><img src="/images/鹅.jpg" alt="刘禹震"></a>
   </div>
   
   <ul class="nav nav-main">
