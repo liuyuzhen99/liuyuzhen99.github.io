@@ -106,3 +106,7 @@ deploy:
   repo: https://github.com/liuyuzhen99/liuyuzhen99.github.io
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
+
+# Security
+encrypt:
+    enable: true

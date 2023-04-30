@@ -127,3 +127,5 @@ deploy:
 10. 浏览 [https://liuyuzhen99.github.io](https://liuyuzhen99.github.io)
 
 
+# 写作
+创建新文章：`hexo new [layout] <title>`
